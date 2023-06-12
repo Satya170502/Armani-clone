@@ -1,0 +1,182 @@
+.header{
+position: fixed;
+background-color:#cffa00 ;
+align-items: center;
+display: flex;
+justify-content: center;
+flex-direction: row;
+top: 0;
+left: 0;
+right: 0;
+height: 40px;
+width: 100%;
+
+
+}
+.navigation-bar{
+    position:relative;
+    background-color: black;
+    position: fixed;
+    
+    height: 2.5rem;
+    flex-direction: row;
+    left: 0;
+    right: 0;
+    align-items: center;
+    display: flex;
+    top: 40px;
+}
+.burger{
+    position: fixed;
+    z-index: 3;
+    top: 50px;
+    left: 0;
+    display: grid;
+    place-items: center;
+    padding: 0 6px;
+    height: 1.25rem;
+    width: 1.25rem;
+    margin-left: 24px;
+    
+    color: #f9f9f9;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    background-image: url(https://www.armani.com/ytos/releases/ARMANIGROUP/2023/css/icons/ico_menu_hub_light.9bf86ab7.svg);
+}
+  .site{
+    margin: 0 0.375rem;
+    padding: 0 0.375rem;
+    align-items: center;
+    display: flex;
+    height: 2.5rem;
+    color: #FFFFFF;
+    font-family: "aktiv-grotesk-std",sans-serif;
+    font-style: normal;
+    font-size: 11px;
+    font-weight:normal;
+    margin-left: 55px;
+    letter-spacing: .09375rem;
+    line-height: 1.4;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  
+  .contact{
+    color: #FFFFFF;
+    margin: 0 0.375rem;
+    padding: 0 .375rem;
+    align-items: center;
+    display: flex;
+    height: 2.5rem;
+    font-family: "aktiv-grotesk-std",sans-serif;
+    font-weight:normal;
+    letter-spacing: .09375rem;
+    line-height: 1.4;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-left: 0.5px;
+    font-size: 11px;
+    font-style: normal;
+}
+.user{
+  z-index: 3;
+  background-image:url(https://www.armani.com/ytos/releases/ARMANIGROUP/2023/css/icons/ico_user_light.801e3a58.svg) ;
+  background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: " ";
+    display: block;
+    height: 20px;
+    width: 20px;
+    right:0;
+    top:50px;
+    margin-left: 1010px;
+    cursor: pointer;
+    
+    
+    
+
+}
+.man{
+  z-index: 8;
+  color: #000;
+    background: rgb(255, 255, 255);
+    border-color: rgb(0, 0, 0);
+    border-radius: 0px;
+    font-size: 18px;
+    font-weight: bold;
+    border-width: 1px;
+    border-style: solid;
+    line-height: 50px;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 0.25px;
+    padding-bottom: 0.25px;
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 500px;
+    margin-left: 900px;
+    font-family: 'Source Sans Pro';
+    font-weight: bold;
+    transition: 0.15s;
+    position: absolute;
+}
+
+.woman{
+  z-index: 8;
+  color: #000;
+  background: rgb(255, 255, 255);
+  border-color: rgb(0, 0, 0);
+  border-radius: 0px;
+  font-size: 18px;
+  font-weight: bold;
+  border-width: 1px;
+  border-style: solid;
+  line-height: 50px;
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-top: 0.25px;
+  padding-bottom: 0.25px;
+  display: inline-block;
+  cursor: pointer;
+  margin-left: 15px;
+  font-family: 'Source Sans Pro';
+  font-weight: bold;
+  transition: 0.15s;
+  position: absolute;
+  margin-top: 500px;
+    margin-left: 1150px;
+  
+}
+.woman:hover{
+  background-color:black ;
+  color: white;
+}
+.man:hover{
+  background-color:black ;
+  color: white;
+}
+  .middle{
+    font-size: 22px;
+    color: #000;
+    line-height: 1.5em;
+    margin-top: 50px;
+  }
+  .clothespic{
+    position: fixed;
+    z-index: 10;
+  width: 55vw;
+  background: none;
+  margin-left: 18px;
+    margin-top: 150px;
+    border-style: none;
+    cursor: pointer;
+    position: absolute;
+    background-color: white;
+}
+  
+  .brand-logo{
+    width: 1vw;
+    
+  }
